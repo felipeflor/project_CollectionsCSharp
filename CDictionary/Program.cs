@@ -21,6 +21,9 @@ namespace CDictionary
                 Console.WriteLine($"Chave = {kvp.Key} | Valor = {kvp.Value}");
             }
 
+            Console.WriteLine($"{dic["Cupim"]}");
+
+
         }
     }
 }
